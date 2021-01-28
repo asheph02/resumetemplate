@@ -144,9 +144,17 @@
 }
 
 .section-image span {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  padding: 0 10px;
+  font-weight: 100;
+}
+
+.section-image span2 {
   color: #1abc9c;
   font-weight: bolder;
   opacity: 1;
+
 }
 
 .section-image h1 {
@@ -157,6 +165,8 @@
     font-weight: lighter;
     opacity: 0.9;
 }
+
+
 
 
 
@@ -226,6 +236,10 @@ section {
 }
 
 .section-primary p {
+    text-align: justify;
+}
+
+.section-primary ul {
     text-align: justify;
 }
 
