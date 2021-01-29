@@ -236,11 +236,11 @@ section {
 }
 
 .section-primary p {
-    text-align: justify;
+    text-align: left;
 }
 
 .section-primary ul {
-    text-align: justify;
+    text-align: left;
 }
 
 .section-primary {

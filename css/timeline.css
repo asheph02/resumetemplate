@@ -196,6 +196,11 @@ header .social .btn {
 #timeline .timeline-item .timeline-content.right {
   float: right;
 }
+
+#timeline .timeline-item .timeline-content.left {
+  float: left;
+}
+
 #timeline .timeline-item .timeline-content.right:before {
   content: '';
   right: 45%;
@@ -214,7 +219,7 @@ header .social .btn {
   #timeline:before {
     left: 0;
   }
-  #timeline .timeline-item .timeline-content {
+  #timeline .timeline-item .timeline-content, #timeline .timeline-item .timeline-content.left {
     width: 90%;
     float: right;
   }
